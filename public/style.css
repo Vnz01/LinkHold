@@ -56,3 +56,24 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.authentication-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-input {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  text-align: center;
+  font-size: 18px; /* Adjust the font size as needed */
+  margin: 0 5px;
+}
+
+.narrow-input {
+  width: 20px; /* Adjust the width as needed */
+  text-align: center;
+  font-size: 14px; /* Adjust the font size as needed */
+}
